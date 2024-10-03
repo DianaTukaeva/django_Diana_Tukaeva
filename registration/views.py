@@ -8,3 +8,6 @@ def data(request):
 
 def incorrect(request):
     return HttpResponse('Упс, вылезла ошибка(((')
+
+def hello(request):
+    return HttpResponse('Привет!!!!!!!!!!!!!')
